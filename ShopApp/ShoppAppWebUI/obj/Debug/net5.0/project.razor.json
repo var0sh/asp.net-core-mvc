@@ -15634,8 +15634,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\HTML 2\\Asp.Net Core - MVC\\ShopApp\\ShoppAppWebUI\\Views\\Home\\index.cshtml",
-      "TargetPath": "Views\\Home\\index.cshtml",
+      "FilePath": "d:\\HTML 2\\Asp.Net Core - MVC\\ShopApp\\ShoppAppWebUI\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {

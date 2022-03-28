@@ -1,3 +1,5 @@
+@model ShoppAppWebUI.Models.Product;
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +9,8 @@
     <title>Product</title>
 </head>
 <body>
-    product/details
+    <p>Product Name: @Model.Name</p>
+    <p>Product Price: @Model.Price</p>
+    <p>Product Description: @Model.Desc</p>
 </body>
 </html>

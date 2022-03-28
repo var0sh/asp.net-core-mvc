@@ -1,3 +1,4 @@
+using System;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ShoppAppWebUI.Controllers
@@ -7,6 +8,11 @@ namespace ShoppAppWebUI.Controllers
     {
         // localhost:5000/home/index
         public IActionResult Index() {
+            int hour = DateTime.Now.Hour;
+            
+            ViewBag.Greeting = hour > 12 ? "İyi Günler" : "Günaydın"; 
+            ViewBag.UserName = "Taha";
+
             return View();
         }
 
