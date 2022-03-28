@@ -5,18 +5,18 @@ namespace ShoppAppWebUI.Controllers
     public class ProductController: Controller
     {
         // localhost:5000/product/index
-        public string Index() {
-            return "product/index";
+        public IActionResult Index() {
+            return View();
         }
 
         // localhost:5000/product/list
-        public string List() {
-            return "product/list";
+        public IActionResult List() {
+            return View();
         }
 
         // localhost:5000/product/details
-        public string Details(int id) {
-            return "product/details/" + id;
+        public IActionResult Details(int id) {
+            return View();
         }
     }
 }

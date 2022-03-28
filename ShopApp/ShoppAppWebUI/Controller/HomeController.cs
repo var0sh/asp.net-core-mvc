@@ -6,13 +6,18 @@ namespace ShoppAppWebUI.Controllers
     public class HomeController: Controller
     {
         // localhost:5000/home/index
-        public string Index() {
-            return "home/index";
+        public IActionResult Index() {
+            return View();
         }
 
         // localhost:5000/home/about
-        public string About() {
-            return "home/about";
+        public IActionResult About() {
+            return View();
+        }
+        
+        // localhost:5000/home/about
+        public IActionResult Contact() {
+            return View("MyView");
         }
     }
 }

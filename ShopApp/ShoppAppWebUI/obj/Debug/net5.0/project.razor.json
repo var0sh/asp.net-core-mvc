@@ -15617,6 +15617,37 @@
     "CSharpLanguageVersion": 900
   },
   "RootNamespace": "ShopAppWebUI",
-  "Documents": [],
+  "Documents": [
+    {
+      "FilePath": "d:\\HTML 2\\Asp.Net Core - MVC\\ShopApp\\ShoppAppWebUI\\Views\\Product\\List.cshtml",
+      "TargetPath": "Views\\Product\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\HTML 2\\Asp.Net Core - MVC\\ShopApp\\ShoppAppWebUI\\Views\\Home\\About.cshtml",
+      "TargetPath": "Views\\Home\\About.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\HTML 2\\Asp.Net Core - MVC\\ShopApp\\ShoppAppWebUI\\Views\\Product\\Index.cshtml",
+      "TargetPath": "Views\\Product\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\HTML 2\\Asp.Net Core - MVC\\ShopApp\\ShoppAppWebUI\\Views\\Home\\index.cshtml",
+      "TargetPath": "Views\\Home\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\HTML 2\\Asp.Net Core - MVC\\ShopApp\\ShoppAppWebUI\\Views\\Home\\MyView.cshtml",
+      "TargetPath": "Views\\Home\\MyView.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\HTML 2\\Asp.Net Core - MVC\\ShopApp\\ShoppAppWebUI\\Views\\Product\\Details.cshtml",
+      "TargetPath": "Views\\Product\\Details.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.2"
 }
