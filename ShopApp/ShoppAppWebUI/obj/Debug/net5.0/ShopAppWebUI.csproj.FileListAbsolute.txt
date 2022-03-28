@@ -62,3 +62,4 @@ D:\HTML 2\Asp.Net Core - MVC\ShopApp\ShoppAppWebUI\obj\Debug\net5.0\Razor\Views\
 D:\HTML 2\Asp.Net Core - MVC\ShopApp\ShoppAppWebUI\obj\Debug\net5.0\Razor\Views\Product\Details.cshtml.g.cs
 D:\HTML 2\Asp.Net Core - MVC\ShopApp\ShoppAppWebUI\obj\Debug\net5.0\Razor\Views\Product\List.cshtml.g.cs
 D:\HTML 2\Asp.Net Core - MVC\ShopApp\ShoppAppWebUI\obj\Debug\net5.0\Razor\Views\Home\MyView.cshtml.g.cs
+D:\HTML 2\Asp.Net Core - MVC\ShopApp\ShoppAppWebUI\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs

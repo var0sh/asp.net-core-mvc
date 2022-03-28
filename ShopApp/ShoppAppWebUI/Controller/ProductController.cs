@@ -7,7 +7,20 @@ namespace ShoppAppWebUI.Controllers
     {
         // localhost:5000/product/index
         public IActionResult Index() {
-            return View();
+            // *** View'e veri aktarma yöntemleri => ViewBag, ViewData, Model
+
+            // ViewData
+            var product = new Product() {Name = "Phone 2", Price = 5000, Desc = "Good Phone"};
+
+            // ViewData["Product"] = product;
+            // ViewData["Category"] = "Telefon";
+
+
+            // ViewBag
+            // ViewBag.Category = "Telefonlar";
+            // ViewBag.Product = product;
+
+            return View(product/*Model ile View'e veri aktarma*/);
         }
 
         // localhost:5000/product/list

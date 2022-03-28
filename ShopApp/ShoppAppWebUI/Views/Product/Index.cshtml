@@ -1,3 +1,5 @@
+@model ShoppAppWebUI.Models.Product;
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +9,16 @@
     <title>Product</title>
 </head>
 <body>
-    product/index
+    @* ViewData *@
+    @* <h1>@ViewData["Category"] Kategorisi</h1>
+    <h4>@(((Product)ViewData["Product"]).Name)</h4> *@
+
+    @* ViewBag *@
+    @* <h1>@ViewBag.Category</h1>
+    <h1>@ViewBag.Product.Name</h1> *@
+
+    @* Model *@
+    @* <h1>Telefon Kategorisi</h1>
+    <h4>@Model.Name</h4> *@
 </body>
 </html>

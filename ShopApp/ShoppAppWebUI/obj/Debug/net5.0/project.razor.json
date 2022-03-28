@@ -15647,6 +15647,11 @@
       "FilePath": "d:\\HTML 2\\Asp.Net Core - MVC\\ShopApp\\ShoppAppWebUI\\Views\\Product\\Details.cshtml",
       "TargetPath": "Views\\Product\\Details.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\HTML 2\\Asp.Net Core - MVC\\ShopApp\\ShoppAppWebUI\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"
