@@ -1,5 +1,7 @@
+using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using ShoppAppWebUI.Models;
+using ShoppAppWebUI.ViewModels;
 
 namespace ShoppAppWebUI.Controllers
 {
@@ -25,7 +27,16 @@ namespace ShoppAppWebUI.Controllers
 
         // localhost:5000/product/list
         public IActionResult List() {
-            return View();
+
+            var products = new List<Product>() {
+                new Product() {Name = "Phone 1", Price = 1000, Desc = "Good Phone"},
+                new Product() {Name = "Phone 2", Price = 2000, Desc = "Good Phone"},
+            };
+
+            var category = new Category() {Name = "Telefonlar", Desc = "Telefon Categorisi"};
+            var productViewModel = new ProductViewModel() {Category = category, Products = products};
+
+            return View(productViewModel);
         }
 
         // localhost:5000/product/details
