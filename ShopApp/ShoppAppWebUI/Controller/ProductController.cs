@@ -30,7 +30,9 @@ namespace ShoppAppWebUI.Controllers
 
             var products = new List<Product>() {
                 new Product() {Name = "Phone 1", Price = 1000, Desc = "Good Phone"},
-                new Product() {Name = "Phone 2", Price = 2000, Desc = "Good Phone"},
+                new Product() {Name = "Phone 2", Price = 2000, Desc = "Good Phone", IsApproved = true},
+                new Product() {Name = "Phone 3", Price = 3000, Desc = "Good Phone"},
+                new Product() {Name = "Phone 4", Price = 4000, Desc = "Good Phone"}
             };
 
             var category = new Category() {Name = "Telefonlar", Desc = "Telefon Categorisi"};
